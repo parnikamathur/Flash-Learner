@@ -1,4 +1,5 @@
 import { Box, Grid, Typography } from "@mui/material";
+import Image from 'next/image';
 
 export default function Features() {
   return (
@@ -34,7 +35,13 @@ export default function Features() {
             }}
           >
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2, paddingLeft: 2 }}>
-              <img src="icon.png" alt="icon" style={{ marginRight: 8, width: 24, height: 24 }} />
+              <Image 
+                src="/icon.png" // Ensure this path is correct
+                alt="icon" 
+                width={24} // Specify width
+                height={24} // Specify height
+                style={{ marginRight: 8 }} // Use margin style
+              />
             </Box>
             <Box sx={{  mb: 2, paddingLeft: 2 }}>
               <Typography variant="h6" gutterBottom sx={{ fontWeight: 'bold', color: 'white' }}>
@@ -73,7 +80,13 @@ export default function Features() {
             }}
           >
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2, paddingLeft: 2 }}>
-              <img src="icon.png" alt="icon" style={{ marginRight: 8, width: 24, height: 24 }} />
+              <Image 
+                src="/icon.png" // Ensure this path is correct
+                alt="icon" 
+                width={24} // Specify width
+                height={24} // Specify height
+                style={{ marginRight: 8 }} // Use margin style
+              />
             </Box>
             <Box sx={{  mb: 2, paddingLeft: 2 }}>
               <Typography variant="h6" gutterBottom sx={{ fontWeight: 'bold', color: 'white' }}>
@@ -112,7 +125,13 @@ export default function Features() {
             }}
           >
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2, paddingLeft: 2 }}>
-              <img src="icon.png" alt="icon" style={{ marginRight: 8, width: 24, height: 24 }} />
+              <Image 
+                src="/icon.png" // Ensure this path is correct
+                alt="icon" 
+                width={24} // Specify width
+                height={24} // Specify height
+                style={{ marginRight: 8 }} // Use margin style
+              />
             </Box>
             <Box sx={{  mb: 2, paddingLeft: 2 }}>
               <Typography variant="h6" gutterBottom sx={{ fontWeight: 'bold', color: 'white' }}>
